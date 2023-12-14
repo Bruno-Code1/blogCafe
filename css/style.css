@@ -1,0 +1,42 @@
+:root {
+    --fuente-heading: 'PT Sans', sans-serif;
+    --fuente-parrafos: 'Open Sans', sans-serif;
+
+    --primario: #784D3C;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none; border: none;
+}
+
+*::-webkit-scrollbar {
+    height: 5rem;
+    width: .5rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--primario);
+    border-radius: .5rem;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    background-color: var(--blanco);
+}
