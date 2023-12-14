@@ -90,6 +90,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+assets/
+images/
+img/
+image/
 
 # Gatsby files
 .cache/
